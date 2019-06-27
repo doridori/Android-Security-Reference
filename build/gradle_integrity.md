@@ -1,0 +1,2 @@
+- [Verification of downloaded Gradle distributions](https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:verification)
+  - Adding the SHA256 of the wrapper to the `gradle-wrapper.properties` file
