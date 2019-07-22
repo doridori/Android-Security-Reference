@@ -36,7 +36,7 @@
 
 ## Security Blog Posts
 
-- [android-developers.googleblog.com] [Google Play security metadata and offline app distribution](https://android-developers.googleblog.com/2018/06/google-play-security-metadata-and.htmlGoogle Play security metadata and offline app distribution)
+- [android-developers.googleblog.com] [Google Play security metadata and offline app distribution](https://android-developers.googleblog.com/2018/06/google-play-security-metadata-and.html)
 - [android-developers.googleblog.com] [Protecting users with TLS by default in Android P
 ](https://android-developers.googleblog.com/2018/04/protecting-users-with-tls-by-default-in.html) _Apr 18_
 - [android-developers.googleblog.com] [Keystore Key Attestation](https://android-developers.googleblog.com/2017/09/keystore-key-attestation.html)
