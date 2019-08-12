@@ -85,6 +85,17 @@
   - [Exploring Java bytecode](https://blog.nishtahir.com/2015/09/12/exploring-java-byte-code/)
   - [Keynote: Sinking Your Teeth Into Bytecode](https://skillsmatter.com/skillscasts/10012-keynote-sinking-your-teeth-into-bytecode)
 
+Super-pro `javap` script...
+
+```
+#!/bin/bash
+for filename in *.class; do
+  echo $filename
+  javap $filename > out/"$filename".out
+done
+
+```
+
 ### Android
 
 - [google/android-classyshark](https://github.com/google/android-classyshark)
