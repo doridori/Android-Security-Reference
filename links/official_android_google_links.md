@@ -36,6 +36,7 @@
 
 ## Security Blog Posts
 
+- [android-developers.googleblog.com] [Trust but verify attestation with revocation](https://android-developers.googleblog.com/2019/09/trust-but-verify-attestation-with.html)
 - [android-developers.googleblog.com] [Google Play security metadata and offline app distribution](https://android-developers.googleblog.com/2018/06/google-play-security-metadata-and.html)
 - [android-developers.googleblog.com] [Protecting users with TLS by default in Android P
 ](https://android-developers.googleblog.com/2018/04/protecting-users-with-tls-by-default-in.html) _Apr 18_
