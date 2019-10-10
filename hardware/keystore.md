@@ -40,6 +40,12 @@ implement a TEE.
 
 Hardware based `KeyStore` is [now mandatory in for devices release with N](https://youtu.be/XZzLjllizYs?t=571); In the updated CDD [9.11. Keys and Credentials](https://source.android.com/compatibility/7.0/android-7.0-cdd#9_11_keys_and_credentials).
 
+However it does state
+
+> Note that if a device implementation is already launched on an earlier Android version, such a device is exempted from the requirement to have a hardware-backed keystore, unless it declares the android.hardware.fingerprint feature which requires a hardware-backed keystore.
+
+I have observerd on a 6P. which does support fingerprint and running 8.1.0 that it supports RSA in hardware but not AES.
+
 ### CDD N-7.1-25
 
 An Interesting change to section `9.11` in `7.1` is that:
