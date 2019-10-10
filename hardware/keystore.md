@@ -38,9 +38,7 @@ implement a TEE.
 
 ### CDD N-7.0-24
 
-Hardware based `KeyStore` is [now mandatory in N](https://youtu.be/XZzLjllizYs?t=571); In the updated CDD [9.11. Keys and Credentials](https://source.android.com/compatibility/7.0/android-7.0-cdd#9_11_keys_and_credentials)  this changed the 6.0 **SHOULD** to: 
-
-> Note that if a device implementation is already launched on an earlier Android version, such a device is exempted from the requirement to have a hardware-backed keystore, unless it declares the android.hardware.fingerprint feature which requires a hardware-backed keystore.
+Hardware based `KeyStore` is [now mandatory in for devices release with N](https://youtu.be/XZzLjllizYs?t=571); In the updated CDD [9.11. Keys and Credentials](https://source.android.com/compatibility/7.0/android-7.0-cdd#9_11_keys_and_credentials).
 
 ### CDD N-7.1-25
 
