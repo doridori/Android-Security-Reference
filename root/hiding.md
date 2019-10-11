@@ -6,6 +6,7 @@
 - [Magisk](https://forum.xda-developers.com/apps/magisk/mod-magisk-v1-universal-systemless-t3432382)
   - Magisk Is A Magic Mask to Alter System Systemless-ly
   - [MagiskHide Offical docs](https://www.didgeridoohan.com/magisk/MagiskHide)
+  - [How Magisk Works?](https://android.stackexchange.com/questions/213167/how-magisk-works)
 - [Frida](https://www.frida.re/docs/android/)
   - Dynamic code instrumentation toolkit
  
