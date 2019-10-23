@@ -12,6 +12,13 @@ This is the same as standard Java's `jarsigner`. Explanation [here](https://web.
 
 From [source.android.com/security/apksigning/](https://source.android.com/security/apksigning/#v2)
 
+# Version 3
+
+[V3](https://source.android.com/security/apksigning/v3)
+
+- Supports key rotation
+- Android 9+
+
 # Signing with multiple certs
 
 - Seems not very well supported anecdotally
