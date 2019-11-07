@@ -67,6 +67,10 @@ From [here](https://source.android.com/security/reports/Android-Bootcamp-2016-An
 
 [source.android.com/security/keystore/attestation](https://source.android.com/security/keystore/attestation)
 
+## Official guides
+
+[google/android-key-attestation](https://github.com/google/android-key-attestation/blob/master/server/src/main/java/com/android/example/KeyAttestationExample.java)
+
 ## Google root certs
 
 Guessing the root certs above, which would need to be validated, are found here https://pki.goog/.
