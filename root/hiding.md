@@ -10,6 +10,7 @@
     - Excellent!
 - [Frida](https://www.frida.re/docs/android/)
   - Dynamic code instrumentation toolkit
+  - OSX `pip2 install frida & pip2 install frida-tools`
  
 # Articles
 
