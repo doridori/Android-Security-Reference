@@ -1,2 +1,3 @@
 - [Verification of downloaded Gradle distributions](https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:verification)
   - Adding the SHA256 of the wrapper to the `gradle-wrapper.properties` file
+- Filtering what dependencies should be searched for in what repos using `exclusiveContent`, `includeGroup` and `excludeGroup` [gradle docs](https://docs.gradle.org/6.2/userguide/declaring_repositories.html#sec:repository-content-filtering)
