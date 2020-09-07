@@ -39,6 +39,7 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - [Set up by ARM, Gemalto, G&D](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE)
   - GlobalPlatform conforming
   - Used by [**MediaTek**](https://www.trustonic.com/news/company/mediatek-licences-trustonic-trusted-execution-environment/) and Samsungs **Eyxnos**
+  - MicroKernel design (as stated [here](https://www.trustonic.com/news/technology/what-is-a-trusted-execution-environment-tee/))
 - Trusted Logic (Gemalto company) `Trusted Foundations`
   - Unsure if used on Android
 
