@@ -91,6 +91,11 @@ The blog posts listed below talks about reversing Trustlets. They seem to be sig
 - `SCM` - Secure Channel Manager
   - Qualcomm Linux Kernal driver that interacts with QSEE via SMC
 
+## Deveopment 
+
+- [Open-TEE - An Open Virtual Trusted Execution
+Environment](https://arxiv.org/pdf/1506.07367.pdf)
+
 ## Links
 
 - Bits Please Series
