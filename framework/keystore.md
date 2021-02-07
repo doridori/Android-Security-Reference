@@ -11,7 +11,7 @@ and
 If you need to utilise and persist a cryptographic key in your application you either need to:
 
 1. Request some input from the user (like a password) and either use this directly to derive a key or use it to encrypt a key which can then be persisted to disk
-2. Store the key securely so it cant 'easily' be snooped
+2. Store the key securely so it can't 'easily' be snooped
 
 Some implementations may store a key inside shared prefs or raw on the filesystem, or worse, in the source code, which is a vulnerable approach to key management. 
 
@@ -63,20 +63,20 @@ This is especially handy for any kind of challenge / response auth or other proc
   - Keystore implemented as a native keystore daemon that used a local socket as its IPC interface
 - **J-4.3-18**
   - [Credential storage enhancements in Android 4.3](http://nelenkov.blogspot.co.uk/2013/08/credential-storage-enhancements-android-43.html)
-  - can store public / private keys via RSA `Cipher` support
-  - `Signiture` support for RSA varients
-  - can have multiple device users
-    - before 4.3 only PRIMARY user could use
+  - Can store public / private keys via RSA `Cipher` support
+  - `Signature` support for RSA variants
+  - Can have multiple device users
+    - Before 4.3 only PRIMARY user could use
   - CANT store AES keys
-    - but could encypt the AES key with created public / private key and in keystore
-    - can store directly via hidden apis - see link above
+    - But could encrypt the AES key with created public / private key and in keystore
+    - Can store directly via hidden apis - see link above
     - Can with [`Vault`](https://android.googlesource.com/platform/development/+/master/samples/Vault/src/com/example/android/vault/SecretKeyWrapper.java) wrapper class
-      - check out [g+ post](https://plus.google.com/+JeffSharkey/posts/9BmGb3xbPcA)
+      - Check out [g+ post](https://plus.google.com/+JeffSharkey/posts/9BmGb3xbPcA)
   - [Android 4.3 release notes](http://developer.android.com/about/versions/android-4.3.html#Security)
-  - deamon retired and replaced with binder interface
+  - Daemon retired and replaced with binder interface
 - **K-4.4-19**
   - Support for elliptic curve
-  - `Signature` support for ECDSA varients
+  - `Signature` support for ECDSA variants
 - **M-6-23**
   - First time for AES `Cipher` support (See ['Supported Algorithms'](http://developer.android.com/training/articles/keystore.html#SupportedAlgorithms)) 
   - `KeyGenerator` support for AES & HMAC
