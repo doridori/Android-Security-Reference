@@ -17,3 +17,5 @@
   - A tiny lib (Less than 10 methods) to store constants where attackers will have a harder time to find.
 - [SafeRoom](https://github.com/commonsguy/cwac-saferoom)
   - CWAC-SafeRoom: A Room<->SQLCipher for Android Bridge
+- [adorsys/secure-storage-android](https://github.com/adorsys/secure-storage-android)
+  - Use RSA encryption and Android Keystore to store strings & credentials securely on your device
