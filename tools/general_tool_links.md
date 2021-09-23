@@ -103,6 +103,7 @@ done
 - [Deguard](http://www.apk-deguard.com/) 
   - Statistical Deobfuscation for Android
 - [APKtool](https://ibotpeaches.github.io/Apktool/) 
+  - 12.5k github stars and maintained  
   - A tool for reverse engineering Android apk files
   - jar based
 - [google/Enjarify](https://github.com/google/enjarify)
@@ -118,10 +119,10 @@ done
 - [CalebFenton/apkfile](https://github.com/CalebFenton/apkfile)
   - Android app analysis and feature extraction library
 - [skylot/jadx](https://github.com/skylot/jadx)
+  - 27k github stars and maintained  
   - Dex to Java decompiler
   - Drag and drop apk decompilation
   - Nice search
-  - Currently not working for new (circa AS3) projects
 
 ## Native
 
