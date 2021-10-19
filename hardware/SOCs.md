@@ -15,3 +15,5 @@ Here is a non-exhaustive list of some common Android Socs _(ARM unless noted oth
 - Texas Instruments OMAP
 - ST-Ericsson NovaThor
 - NVidea Tegra
+- Google Tensor 
+  - [What is Google Tensor](https://www.pocket-lint.com/phones/news/google/157890-what-is-google-tensor-and-which-phones-and-devices-does-it-power)
