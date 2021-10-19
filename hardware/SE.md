@@ -18,6 +18,10 @@ The Pixel 2 ships with a [hardware security module](https://www.blog.google/prod
 
 [Building a Titan: Better security through a tiny chip](https://android-developers.googleblog.com/2018/10/building-titan-better-security-through.html)
 
+## Pixel 6 and Titan M2 & Tensor Processor
+
+...
+
 ## Samsung
 
 - [eSE](https://github.com/doridori/Android-Security-Reference/blob/master/hardware/SE.md) / [sdk](https://developer.samsung.com/ese/overview.html)
