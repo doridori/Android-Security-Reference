@@ -30,7 +30,8 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - AOSP TEE
   - Any TEE OS (not just Trusty) can be used for TEE implementations
   - Currently all Trusty applications are developed by a single party and packaged with the Trusty kernel image.
-  - NOT GlobalPlatform conforming
+  - NOT GlobalPlatform conforming (this may have changed)
+  - [Ships on the Pixel 6 as part of Tensor](https://blog.google/products/pixel/introducing-google-tensor/)
 - Giesecke & Devrient (G&D) `MobiCore`
   - [Looks like](http://www.smartinsights.net/Secure-Transactions-News/ARM-Gemalto-and-G-D-launch-Trustonic-for-TEE) it used to be Qualcomms TEE
   - [G&D CARTES 2012 Demo presentation](https://www.gi-de.com/gd_media/media/documents/complementary_material/events_1/04_STE_CARTES__Demo_Presentation.pdf)
