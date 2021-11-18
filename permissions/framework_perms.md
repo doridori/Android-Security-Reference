@@ -25,6 +25,7 @@ See comprehensive official list [R.attr list](https://developer.android.com/refe
     - If in the core OS [/system/framework/framework-res.apk/AndroidManifest.xml](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml) then the permission holder would need to be signed by the same key (which is the _`platform`_ key used in the OS signing process)
     - If an Application defines this permission then the holder would need to be signed by the same key as the application
   - Permission will be auto granted if sig check passes 
+  - [Changes were introduced in Android 12](https://developer.android.com/about/versions/12/features#safer-grant-signature-perms) to make granting signature permissions to other applications more flexible
 - `signatureOrSystem` 
   - See `signiture` and `system`
   
