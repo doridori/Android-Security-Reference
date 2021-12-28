@@ -102,6 +102,11 @@ Alive? Data Residue Attacks on Android](http://www.cis.syr.edu/~wedu/Research/pa
 - Zygote
   - [Attack on Zygote: a new twist in the evolution of mobile threats](https://securelist.com/analysis/publications/74032/attack-on-zygote-a-new-twist-in-the-evolution-of-mobile-threats/) _3rd March 2016_
     - One of the best articles I have seen deconstructing malware 
+
+# Dependencies / Populat libs
+
+- Log4j
+  - [Log4Shell: RCE 0-day exploit found in log4j 2, a popular Java logging package](https://www.lunasec.io/docs/blog/log4j-zero-day/) _Dec 2021_
     
 # Hardware
 
