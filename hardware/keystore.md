@@ -14,6 +14,12 @@ See the [hardware/TEE.md](/hardware/TEE.md) for more inc. vulns.
 
 _A [TEE](https://en.wikipedia.org/wiki/Trusted_execution_environment) (or [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module)) can change a `KeyStore` attack from **offline** (which would be against a software KeyStores data) to **online** (running on the device issuing commands to the hardware). This further prevents extraction of the private key and potentially throttling of access attempts (and therefore potential exploitation). See Androids [Trusty TEE](https://source.android.com/security/trusty/index.html)_
 
+## Strongbox
+
+Strongbox is a keymaster implemented in tamper-resitant hardware (e.g. an HSM &| SE). This can be present in [addition](https://source.android.com/security/best-practices/hardware) to the TEE based keymaster implementation.
+
+Strongbox has a [subset](https://developer.android.com/training/articles/keystore.html#HardwareSecurityModule) of keys types available for use.
+
 ## CDD/CTS
 
 The CDD history of the `KeyStore` is quite interesting. There are a few fundamental features for which ROM inclusion or hardware presense of will make some requirements around `KeyStore` implementation come into scope. These are around:
