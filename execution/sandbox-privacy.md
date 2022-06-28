@@ -1,0 +1,1 @@
+The Privacy Sandbox is a new initiative annouced in 2022, initially utilsed for 3rd party SDK isolation. More details can be found [here](https://developer.android.com/design-for-safety/privacy-sandbox).
