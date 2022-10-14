@@ -1,3 +1,5 @@
+_Deprecated and superceeded by [Play Integrity API](https://github.com/doridori/Android-Security-Reference/blob/master/framework/play_integrity_api.md)_
+
 # SafetyNet
 
 - SafetyNet Attestation API
