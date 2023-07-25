@@ -6,6 +6,7 @@
 - [Matching repositories to dependencies](https://docs.gradle.org/5.1-rc-1/userguide/declaring_repositories.html#sec::matching_repositories_to_dependencies)
 - Maven Proxy w/ cache
 - Gradle [built in dependency verification](https://docs.gradle.org/current/userguide/dependency_verification.html)
+- [2023] [Android Security: Securing your Gradle builds from baddies](spght.dev/articles/23-07-2023/gradle-security)
 
 ## To Avoid...
 
