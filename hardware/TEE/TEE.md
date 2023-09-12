@@ -75,6 +75,7 @@ The blog posts listed below talks about reversing Trustlets. They seem to be sig
 - Vuln in any Trustlet can allow the TEE to be compromised
   - (Re:Trusty) Although the Trusty OS enables the development of new applications, doing so must be exercised with extreme care; each new application increases the area of the trusted computing base (TCB) of the system. Trusted applications can access device secrets and can perform computations or data transformations using them.
 - [INSPECTING DATA FROM THE SAFETY OF YOUR TRUSTED EXECUTION ENVIRONMENT](https://www.blackhat.com/docs/ldn-15/materials/london-15-Williams-Inspecting-Data-From-The-Safety-Of-Your-Trusted-Execution-Environment.pdf)
+- [Trust Dies in Darkness: Shedding Light on Samsung’s TrustZone Keymaster Design](https://www.usenix.org/system/files/sec22fall_shakevsky.pdf)
   
 ## Common Usage Scenarios
 
