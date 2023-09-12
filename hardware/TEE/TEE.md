@@ -43,6 +43,10 @@ From 'Android Security Internals' the Nexus 4 was TrustZone enabled, with QSEE i
   - MicroKernel design (as stated [here](https://www.trustonic.com/news/technology/what-is-a-trusted-execution-environment-tee/))
 - Trusted Logic (Gemalto company) `Trusted Foundations`
   - Unsure if used on Android
+- TEEGRIS
+  - [Samsung](https://developer.samsung.com/teegris/overview.html) (again!)    
+- TZOS
+  - Includes TEEGRIS, Kinibi, QSEE    
 
 
 ### Built on top of x86
