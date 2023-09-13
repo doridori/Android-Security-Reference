@@ -1,3 +1,6 @@
+
+# General Links
+
 - [Difference between TEE and SE](https://security.stackexchange.com/questions/122738/difference-between-tmp-tee-and-se)
 - [Accessing the embedded secure element in Android 4.x 
 ](https://nelenkov.blogspot.co.uk/2012/08/accessing-embedded-secure-element-in.html)
@@ -25,3 +28,9 @@ The Pixel 2 ships with a [hardware security module](https://www.blog.google/prod
 ## Samsung
 
 - [eSE](https://github.com/doridori/Android-Security-Reference/blob/master/hardware/SE.md) / [sdk](https://developer.samsung.com/ese/overview.html)
+
+# Strongbox
+
+From [official docs](https://developer.android.com/training/articles/keystore#HardwareSecurityModule)
+
+> Supported devices running Android 9 (API level 28) or higher can have a StrongBox Keymaster, an implementation of the Keymaster or Keymint HAL that resides in a hardware security module-like secure element. While hardware security modules can refer to many different implementations of key-storage where a Linux kernel compromise can't reveal them, such as TEE, StrongBox explicitly refers to devices such as embedded Secure Elements (eSE) or on-SoC secure processing units (iSE).
