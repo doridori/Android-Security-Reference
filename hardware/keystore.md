@@ -60,6 +60,10 @@ An Interesting change to section `9.11` in `7.1` is that:
 
 Previous to this change, _harware keystore support_ was pretty ambiguous. A device could have a hardware `KeyStore`, but not support all the [Supported Algorithms](https://developer.android.com/training/articles/keystore.html#SupportedAlgorithms) _in hardware_. This can be seen on the Nexus 5 running M-6-23, which supports hardware RSA but not AES; which would result in the AES operation being performed in the _software_ `KeyStore`.
 
+### CDD S-12-31
+
+No change to section `9.11` from the CDD for N-7.1-25 above.
+
 ## API checking
 
 The presence of hardware backed key storage can be checked via the [`KeyChain.isBoundKeyAlgorithm`](http://developer.android.com/reference/android/security/KeyChain.html#isBoundKeyAlgorithm(java.lang.String)) method and for M-6-23+ [`KeyInfo.isInsideSecureHardware ()`](http://developer.android.com/reference/android/security/keystore/KeyInfo.html#isInsideSecureHardware()). See below
