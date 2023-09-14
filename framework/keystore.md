@@ -1,4 +1,4 @@
-_See [/hardware/keystore.md](/hardware/keystore.md) for API and usage information._
+_See [/hardware/keystore.md](/hardware/keystore.md) for hardware information._
 
 # KeyStore
 
