@@ -64,6 +64,12 @@ Previous to this change, _harware keystore support_ was pretty ambiguous. A devi
 
 No change to section `9.11` from the CDD for N-7.1-25 above.
 
+### CDD T-13-33
+
+> [C-1-2] MUST have implementations of RSA, AES, ECDSA, ECDH (if IKeyMintDevice is supported), 3DES, and HMAC...
+
+ECDH and 3DES added.
+
 ## API checking
 
 The presence of hardware backed key storage can be checked via the [`KeyChain.isBoundKeyAlgorithm`](http://developer.android.com/reference/android/security/KeyChain.html#isBoundKeyAlgorithm(java.lang.String)) method and for M-6-23+ [`KeyInfo.isInsideSecureHardware ()`](http://developer.android.com/reference/android/security/keystore/KeyInfo.html#isInsideSecureHardware()). See below
