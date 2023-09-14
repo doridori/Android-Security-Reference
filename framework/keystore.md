@@ -1,3 +1,5 @@
+_See [/hardware/keystore.md](/hardware/keystore.md) for API and usage information._
+
 # KeyStore
 
 > KeyStore is responsible for maintaining cryptographic keys and their owners.
