@@ -100,7 +100,9 @@ This is especially handy for any kind of challenge / response auth or other proc
   - [Key importing](https://developer.android.com/training/articles/keystore#ImportingEncryptedKeys)
   - Support for 3DES encryption
   - Changes to version binding so that boot.img and system.img have separately set versions to allow for independent updates
-
+- **S-12-31**
+  - Keystore2 quietly introduced
+    - I can't find much context around this change, or anything from Google / Android around motivations. I see some comments regarding improvements around protecting against DoS attacks on the key generation API.  The package is [here](https://android.googlesource.com/platform/frameworks/base/+/9a59faa385d9ff31dd7d309b38fee9ea0e4647b3/keystore/java/android/security/keystore2).
 
 ## User Authenticating Key Use
 
