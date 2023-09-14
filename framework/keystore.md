@@ -128,7 +128,7 @@ Keep in mind the different modes of usage will have have an impact of the stabil
   - PostM
     - If [`.setUserAuthenticationRequired`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationRequired(boolean)) is `true` and [setUserAuthenticationValidityDurationSeconds](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationValidityDurationSeconds(int)) == -1 then finger auth will be required per use
 
-## OS Auth
+## Keystore API usage / OS Authorization
 
 - OS access auth
   - Key access is tied to the apps UID
@@ -147,25 +147,21 @@ If a key has been created with `.setUserAuthenticationRequired(true)` then the u
 - Fingerprint
   - Check [fingerprint.md](fingerprint.md) for more. Essentially needs to perform `KeyStore` op in fingerprint api auth callback.
 
-## Losing Keys and how to handle
+## Known Issues
+
+### Losing Keys and how to handle
 
 See [Android Security: The Forgetful Keystore](http://doridori.github.io/android-security-the-forgetful-keystore/) for losing Keys due to lock screen changes.
 
 You can also lose Keys that require fingerprint auth when a new finger is enrolled. See [fingerprint.md](/api/fingerprint.md)
 
-## Locking of Keystore
+### Locking of Keystore
 
 I have not encountered this myself but there are anecdontal reports of keystores becoming locked even when `setEncryptionRequired` == false. See [this SO post](http://stackoverflow.com/a/25790891/236743).
 
-## Hardware vs Software & CTS
+## What cryptographic primitives / Keystore operations are supported in hardware?
 
 See [/hardware/keystore.md](/hardware/keystore.md)
-
-## `KeyMaster` 
-
-The hardware `KeyStore` is accessed through an [OEM specfific HAL](https://source.android.com/security/keystore/). There is a `softkeymaster` also. See some interesting comments and links around this [here](https://doridori.github.io/android-security-the-forgetful-keystore/#comment-3220919933).
-
-See [android.googlesource.com](https://android.googlesource.com/platform/system/keymaster/+/master) for `keymaster` code. This [clone](https://github.com/geekboxzone/mmallow_system_keymaster/) maybe easier to navigate.
 
 
 ## CAs
