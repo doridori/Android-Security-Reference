@@ -130,9 +130,17 @@ Keep in mind the different modes of usage will have have an impact of the stabil
   - PostM
     - If [`.setUserAuthenticationRequired`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationRequired(boolean)) is `true` and [setUserAuthenticationValidityDurationSeconds](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder.html#setUserAuthenticationValidityDurationSeconds(int)) == -1 then finger auth will be required per use
 
-## Keystore API usage / OS Authorization
+## Keystore API usage
 
-- OS access auth
+### Importing Keys
+
+- [Official examples](https://developer.android.com/reference/kotlin/android/security/keystore/KeyProtection) for importing AES keys without wrapping
+- [Official docs](https://developer.android.com/training/articles/keystore#ImportingEncryptedKeys) for importing wrapped keys
+- [SO post](https://stackoverflow.com/questions/39249856/import-encrypted-aes-key-into-android-keystore-and-store-it-under-new-alias) on importing
+
+### OS Authorization
+
+- OS access authorization
   - Key access is tied to the apps UID
   - If rooted any user/app can in theory assume any UID
   - Access marshalled by keystore deamon on older apis and binder server on new ones 
