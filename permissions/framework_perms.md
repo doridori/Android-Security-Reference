@@ -26,6 +26,7 @@ See comprehensive official list [R.attr list](https://developer.android.com/refe
     - If an Application defines this permission then the holder would need to be signed by the same key as the application
   - Permission will be auto granted if sig check passes 
   - [Changes were introduced in Android 12](https://developer.android.com/about/versions/12/features#safer-grant-signature-perms) to make granting signature permissions to other applications more flexible
+    - _Starting in Android 12, the knownCerts attribute for signature-level permissions allows you to refer to the digests of known signing certificates at declaration time._ 
 - `signatureOrSystem` 
   - See `signiture` and `system`
   
