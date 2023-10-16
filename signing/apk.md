@@ -64,6 +64,10 @@ Takeaway: _Always be specific!_
   - Releated to interesting F-Droid [reproducable builds](https://f-droid.org/wiki/page/Deterministic,_Reproducible_Builds) project
     - [blog post](https://guardianproject.info/2015/02/11/complete-reproducible-app-distribution-achieved/)
 
+## Via Gradle (Android)
+
+`android -> signingReport` gradle task
+
 ## Via `term`
 
 ```
