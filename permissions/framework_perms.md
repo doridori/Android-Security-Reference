@@ -2,7 +2,7 @@
 
 ## References
 
-- [List of all platform provided permissions](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml)
+- [cs.android.com] [Framework Permissions](https://cs.android.com/android/platform/superproject/main/+/main:frameworks/base/core/res/AndroidManifest.xml)
 - [source.android.com] [Permissions Overview](https://source.android.com/docs/core/permissions)
 - [android.googlesource.com] [Android permissions for system developers](https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/permission/Permissions.md)
 
