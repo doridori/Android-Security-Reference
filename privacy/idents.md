@@ -27,3 +27,4 @@
   - [What’s the difference between the GSF ID and the Android ID?](http://blog.onyxbits.de/whats-the-difference-between-the-gsf-id-and-the-android-id-208/)
   - Not really documented
 - [developer.android.com] [Identifying App Installations](https://android-developers.googleblog.com/2011/03/identifying-app-installations.html)
+- [source.android.com] [Immutable Device IDs](https://source.android.com/docs/core/permissions/immutable-device-ids)
