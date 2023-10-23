@@ -83,9 +83,13 @@ For info on the GIDs at the end look at [Kernel Permissions](kernel_perms.md)
 
 ## 6 
 
-[Overlays not allowed][https://i.stack.imgur.com/BEGzf.png]
+[Overlays not allowed](https://i.stack.imgur.com/BEGzf.png)
 
 ## 7 
 
 SYSTEM_ALERT_OVERLAY is auto removed when any permissions dialog is shown
+
+# Permissions dev guide for system devs
+
+[Android permissions for system developers](https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/permission/Permissions.md)
 
