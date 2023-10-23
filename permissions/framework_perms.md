@@ -1,8 +1,10 @@
 # Framework Permissions
 
-## Platform Provided Permissions
+## References
 
-[List of all platform provided permissions](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml)
+- [List of all platform provided permissions](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml)
+- [source.android.com] [Permissions Overview](https://source.android.com/docs/core/permissions)
+- [android.googlesource.com] [Android permissions for system developers](https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/permission/Permissions.md)
 
 ### Permissions Groups
 
@@ -89,7 +91,5 @@ For info on the GIDs at the end look at [Kernel Permissions](kernel_perms.md)
 
 SYSTEM_ALERT_OVERLAY is auto removed when any permissions dialog is shown
 
-# Permissions dev guide for system devs
 
-[Android permissions for system developers](https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/permission/Permissions.md)
 
