@@ -161,9 +161,9 @@ If a key has been created with `.setUserAuthenticationRequired(true)` then the u
 
 ### Losing Keys and how to handle
 
-See [Android Security: The Forgetful Keystore](http://doridori.github.io/android-security-the-forgetful-keystore/) for losing Keys due to lock screen changes.
-
-You can also lose Keys that require fingerprint auth when a new finger is enrolled. See [fingerprint.md](/api/fingerprint.md)
+- See [Android Security: The Forgetful Keystore](http://doridori.github.io/android-security-the-forgetful-keystore/) for losing Keys due to lock screen changes.
+- You can also lose Keys that require fingerprint auth when a new finger is enrolled. See [fingerprint.md](/api/fingerprint.md)
+- There are also [potentially some OEM issues](https://github.com/tink-crypto/tink/issues/535#issuecomment-912170221) with Keystore Master key loss
 
 ### Locking of Keystore
 
