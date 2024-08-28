@@ -5,7 +5,7 @@ There are various approaches to cert pinning on android. What they all have in c
 - Depending on the approach these can be Root, Intermediary, or Leaf (or a combo of the above) depending on requirements. 
 - Pin the SHA256 of Subject Public Key Info ([SPKI](https://tools.ietf.org/html/rfc5280#section-4.1.2.7))
 - _"...developers should not check pins against the list of certificates sent by the server. Instead, pins should be checked against the new, 'clean' chain that is created during SSL validation."_. See Blog Posts below for more info, **lots of pinning implementations in the wild are broken**!
-- Easiest by far is to use Okhttp's `CertificatePinner` which accounts for ["cleaning the chain" (3.2.0)](https://github.com/square/okhttp/blob/parent-3.2.0/okhttp/src/main/java/okhttp3/CertificatePinner.java#L149). See [here](https://github.com/square/okhttp/wiki/HTTPS) for an example.
+- Easiest by far is to use Okhttp's `CertificatePinner` which accounts for ["cleaning the chain" (3.2.0)](https://github.com/square/okhttp/blob/parent-3.2.0/okhttp/src/main/java/okhttp3/CertificatePinner.java#L149). See [CertificatePinner](https://square.github.io/okhttp/3.x/okhttp/okhttp3/CertificatePinner.html) for more details.
 
 # Changes in Nougat
 
