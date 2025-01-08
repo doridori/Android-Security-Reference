@@ -17,4 +17,5 @@ c.init(Cipher.ENCRYPT_MODE, keySpec, new IvParameterSpec(iv));
 
 ## Software supported algorithms
 
-[SO - What crypto algorithms does Android support?](http://stackoverflow.com/questions/7560974/what-crypto-algorithms-does-android-support)
+- [SO - What crypto algorithms does Android support?](http://stackoverflow.com/questions/7560974/what-crypto-algorithms-does-android-support)
+- [Android support for Elliptic Curves (EC) in KeyPairGenerator](https://www.danielhugenroth.com/posts/2021_07_ec_curves_on_android/)
