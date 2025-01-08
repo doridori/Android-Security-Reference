@@ -46,6 +46,12 @@ Guide to terms like JCE & JSSE can be found [here](http://www.oracle.com/technet
 
 Guessing this is for implementations provided/backed by the `KeyStore` API.
 
+### Conscypt
+
+[Official Docs](https://source.android.com/docs/core/ota/modular-system/conscrypt)
+
+> "The Conscrypt module uses BoringSSL, a native library that is a Google fork of OpenSSL and which is used in many Google products for cryptography and TLS (most notably Google Chrome), in conjunction with Conscrypt code (both Java and native code)"
+
 ## Java JCE Providers
 
 #### Apache Harmonys Crypto Provider
