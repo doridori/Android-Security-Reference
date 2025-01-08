@@ -109,3 +109,4 @@ See [Updating Your Security Provider to Protect Against SSL Exploits](http://dev
 ## What algorithms do the providers supply?
 
 - [What crypto algorithms does Android support?](http://stackoverflow.com/questions/7560974/what-crypto-algorithms-does-android-support)
+- [Android support for Elliptic Curves (EC) in KeyPairGenerator](https://www.danielhugenroth.com/posts/2021_07_ec_curves_on_android/)
