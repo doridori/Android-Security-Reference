@@ -69,7 +69,8 @@ The blog posts listed below talks about reversing Trustlets. They seem to be sig
 
 - [GlobalPlatform | Trusted User Interface Made Simple](https://www.globalplatform.org/mediaguidetrustedui.asp)
 - [The Benefits of Trusted User Interface](https://www.trustonic.com/news/blog/benefits-trusted-user-interface/)
-  - > This year Trustonic’s Trusted User interface (TUI) technology was integrated in Samsung’s flagship devices: the Galaxy Note 4 and Galaxy S6 – https://www.trustonic.com/products-services/trustonic-for-samsung-knox.  With this technology Trustonic’s Trusted Execution Environment (TEE) can process user interactions (display and touch) independently from Android in a hardware isolated enclave, made possible by ARM’s TrustZone™. 
+  - > This year Trustonic’s Trusted User interface (TUI) technology was integrated in Samsung’s flagship devices: the Galaxy Note 4 and Galaxy S6 – https://www.trustonic.com/products-services/trustonic-for-samsung-knox.  With this technology Trustonic’s Trusted Execution Environment (TEE) can process user interactions (display and touch) independently from Android in a hardware isolated enclave, made possible by ARM’s TrustZone™.
+- [2024] Looks like its now being unsupported according to [this](https://x.com/MishaalRahman/status/1742616960897102257) tweet 
 
 ## Vulns
 
